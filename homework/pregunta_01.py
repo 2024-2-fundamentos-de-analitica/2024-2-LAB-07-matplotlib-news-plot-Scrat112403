@@ -19,7 +19,7 @@ def pregunta_01():
     El gráfico debe salvarse al archivo `files/plots/news.png`.
 
     """
-    df = pd.read_csv("C:\\Users\\Valentina\\Documents\\GitHub\\2024-2-LAB-07-matplotlib-news-plot-Scrat112403\\files\\input\\news.csv", index_col=0)
+    df = pd.read_csv("files/input/news.csv", index_col=0)
 
     colors={
         'Television': 'dimgray',
